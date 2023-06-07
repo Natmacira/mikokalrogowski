@@ -5,12 +5,10 @@
 // sass main.scss ../style.min.css --style=compressed
 // sass --watch main.scss:../style.min.css --style=compressed
 
-$theme-blue : #0066ff;
-$theme-black: #333333;
-$theme-green: #c1edcc;
-$theme-pink : #f5beae;
+$theme-black: #000000;
 
-$breakpoint-hamburger : 768px;
+
+$breakpoint-tablet : 768px;
 
 @import "normalize";
 @import "fonts";
