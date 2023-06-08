@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Site Version: 1.0.0
  * Site author: Natalia Ciraolo
@@ -45,13 +46,48 @@ define('SITE_VERSION', '1.0.0');
 
 <body>
 	<header>
-		
+		<nav>
+			<ul>
+				<li>
+					<ul>
+						<li><a href=""><img src="" alt="Mikokal Rogowski"></a></li>
+						<li><button id="burger-menu-button">
+								<img src="" alt="Button to open mobile menu" class="burger-menu-open">
+								<img src="" alt="Button to close mobile menu" class="burger-menu-close">
+							</button>
+						</li>
+					</ul>
+				</li> 
+				<ul class="open-mobile-ul">
+					<li>
+						<details>
+							<summary>
+								<img src="" alt="Portfolio">
+							</summary>
+							<ul>
+								<li><a href=""><img src="" alt="Travels in reality"></a></li>
+								<li><a href=""><img src="" alt="Americana Light"></a></li>
+								<li><a href=""><img src="" alt="Wapieñ"></a></li>
+								<li><a href=""><img src="" alt="Film"></a></li>
+								<li><a href=""><img src="" alt="Grandpa"></a></li>
+								<li><a href=""><img src="" alt="Colabs"></a></li>
+							</ul>
+	
+						</details>
+					</li>
+					<li><a href=""><img src="" alt="About"></a></li>
+				</ul>
+			</ul>
+		</nav>
 	</header>
 	<main>
-		
+
 	</main>
 	<footer>
-		
+		<ul>
+			<li><a href=""><img src="" alt="Contact"></a></li>
+			<li><a href=""><img src="" alt="Insta"></a></li>
+		</ul>
 	</footer>
 
 </body>

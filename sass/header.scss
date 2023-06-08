@@ -1,13 +1,13 @@
 body {
 	//burger menu estilos
 	&.hamburger-menu-active {
-		@media (max-width: $breakpoint-tablet - 1px) {
+		// @media (max-width: $breakpoint-tablet - 1px) {
 			header {
 				padding: 0;
 			}
 
 			nav {
-				ul {
+				ul.open-mobile-ul {
 					display: block;
 					background: white;
 					position: fixed;
@@ -18,12 +18,15 @@ body {
 				img.burger-menu-close {
 					display: block;
 					z-index: 6;
-					position: fixed;
-					width: 20px;
+					// position: fixed;
+					// width: 20px;
 					top: 33px;
 				}
+				img.burger-menu-open {
+					display: none;
+				}
 			}
-		}
+		// }
 	}
 
 	header {
@@ -37,7 +40,7 @@ body {
 				z-index: 6;
 				position: relative;
 
-				.burger-menu-open {
+				img.burger-menu-open {
 					width: 30px;
 				}
 
@@ -50,6 +53,9 @@ body {
 				}
 			}
 
+			ul.open-mobile-ul {
+				display: none;
+			}
 			
 		}
 	}

@@ -14,6 +14,15 @@
 		});
 	}
 
+	// const hamburgerButtons = document.getElementsByClassName('hamburger-menu-toggler');
+
+	// for (let i = 0; i < hamburgerButtons.length; i++) {
+	// 	const element = hamburgerButtons[i];
+	// 	hamburgerButtons[i].addEventListener('click', function () {
+	// 		document.body.classList.toggle('hamburger-menu-active');
+	// 	});
+	// }
+
 	// Scrolled Page class
 	window.addEventListener('scroll', function () {
 		if (window.scrollY > 0) {
