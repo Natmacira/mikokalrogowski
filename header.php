@@ -16,7 +16,7 @@ define('SITE_VERSION', '1.0.0');
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>El Maikel</title>
+	<title>Mikokal Rogowski</title>
 	<link rel="stylesheet" href="style.min.css?v=<?php echo SITE_VERSION; ?>">
 	<script src="js/script.js?v=<?php echo SITE_VERSION; ?>"></script>
 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
@@ -50,7 +50,7 @@ define('SITE_VERSION', '1.0.0');
 			<ul>
 				<li>
 					<ul>
-						<li><a href=""><img src="" alt="Mikokal Rogowski"></a></li>
+						<li><a href="index.php"><img src="" alt="Mikokal Rogowski"></a></li>
 						<li><button id="burger-menu-button">
 								<img src="" alt="Button to open mobile menu" class="burger-menu-open">
 								<img src="" alt="Button to close mobile menu" class="burger-menu-close">
@@ -65,12 +65,12 @@ define('SITE_VERSION', '1.0.0');
 								<img src="" alt="Portfolio">
 							</summary>
 							<ul>
-								<li><a href=""><img src="" alt="Travels in reality"></a></li>
-								<li><a href=""><img src="" alt="Americana Light"></a></li>
-								<li><a href=""><img src="" alt="Wapieñ"></a></li>
-								<li><a href=""><img src="" alt="Film"></a></li>
-								<li><a href=""><img src="" alt="Grandpa"></a></li>
-								<li><a href=""><img src="" alt="Colabs"></a></li>
+								<li><a href="travels-in-reality.php"><img src="" alt="Travels in reality"></a></li>
+								<li><a href="americana-light.php"><img src="" alt="Americana Light"></a></li>
+								<li><a href="wapien.php"><img src="" alt="Wapieñ"></a></li>
+								<li><a href="film.php"><img src="" alt="Film"></a></li>
+								<li><a href="grandpa.php"><img src="" alt="Grandpa"></a></li>
+								<li><a href="colabs.php"><img src="" alt="Colabs"></a></li>
 							</ul>
 	
 						</details>
