@@ -1,0 +1,24 @@
+@mixin menu-top-mobile() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .el-maikel-mobile {
+        max-width: 238.4px;
+    }
+
+    button {
+        z-index: 6;
+        position: relative;
+        background-color: white;
+        border: none;
+
+        img.burger-menu-open {
+            width: 36px;
+        }
+
+        img.burger-menu-close {
+            width: 36px;
+        }
+    }
+}
+

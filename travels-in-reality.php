@@ -5,7 +5,7 @@ $body_class = "";
 require_once 'header.php';
 ?>
 
-<section>
+<section class="travels-in-reality">
     <img src="img/Travels_in_reality/1_travels.jpg" alt="">
     <img src="img/Travels_in_reality/2_travels.jpg" alt="">
     <img src="img/Travels_in_reality/3_travels.jpg" alt="">

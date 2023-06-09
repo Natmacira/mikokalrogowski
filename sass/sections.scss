@@ -1,0 +1,65 @@
+section {
+	p {
+		padding-left: 10px;
+		padding-right: 10px;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	h1,
+	h2 {
+		font-size: 18px;
+		padding-left: 10px;
+		padding-right: 10px;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	&.about {
+		p,
+		h1,
+		h2 {
+			padding-left: 16px;
+			padding-right: 16px;
+		}
+	}
+
+	@media (min-width: 600px) {
+		p,
+		h1,
+		h2 {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	img {
+		max-width: 100%;
+		margin: auto;
+		display: block;
+		margin-bottom: 24px;
+		@media (min-width: 800px) {
+			max-width: 800px;
+		}
+	}
+
+	&.travels-in-reality,
+	&.film {
+		img {
+			@media (min-width: 800px) {
+				max-width: 600px;
+			}
+		}
+	}
+
+	&.home {
+		img {
+			margin-top: 160px;
+			margin-bottom: 155px;
+			@media (min-width: 800px) {
+				max-width: 600px;
+				margin-top: 52px;
+				margin-bottom: 71px;
+			}
+		}
+	}
+}

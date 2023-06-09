@@ -13,7 +13,9 @@ $breakpoint-tablet : 768px;
 
 @import "normalize";
 @import "fonts";
+@import "mixin";
 @import "skeleton";
+@import "sections";
 @import "header";
 @import "footer";
 

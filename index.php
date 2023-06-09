@@ -5,8 +5,8 @@ $body_class = "";
 require_once 'header.php';
 ?>
 
-<section>
-<p>hola</p>
+<section class="home">
+<img src="img/Granddad/1_granddad.JPG" alt="">
 </section>
 
 <!-- </body> -->
