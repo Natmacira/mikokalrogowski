@@ -2,9 +2,15 @@ body {
 	//burger menu estilos
 
 	header {
+		summary::marker {
+			font-size: 0;
+		}
 		div.menu-mobile {
 			.burguer-nav-ul {
 				@include menu-top-mobile();
+				@media (min-width: 1200px) {
+					display: none;
+				}
 			}
 		}
 		div.burguer {

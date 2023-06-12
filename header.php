@@ -49,22 +49,30 @@ define('SITE_VERSION', '1.0.0');
 		<!-- menu mobile close -->
 		<div class="menu-mobile">
 			<ul class="burguer-nav-ul">
-				<li><a href="index.php"><img src="img/text/el-mikel.png" alt="Mikokal Rogowski" class="el-maikel-mobile"></a></li>
+				<li>
+					<a href="index.php">
+						<img src="img/text/el-mikel.jpg" alt="Mikokal Rogowski" class="el-maikel-mobile">
+						<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-mobile">
+					</a>
+				</li>
 				<li><button id="burger-menu-button">
-					<img src="img/text/open-menu.png" alt="Button to open mobile menu" class="burger-menu-open">
-					<!-- <img src="img/text/close-menu.png" alt="Button to close mobile menu" class="burger-menu-close"> -->
-				</button>
-			</li>
-		</ul>
-	</div>
-	
-	<!-- menu open in mobile -->
+						<img src="img/text/open-menu.png" alt="Button to open mobile menu" class="burger-menu-open">
+						<!-- <img src="img/text/close-menu.png" alt="Button to close mobile menu" class="burger-menu-close"> -->
+					</button>
+				</li>
+			</ul>
+		</div>
+
+		<!-- menu open in mobile -->
 		<div class="burguer">
 			<nav>
 				<ul>
 					<li>
 						<ul class="burguer-nav-ul">
-							<li><a href="index.php"><img src="img/text/el-mikel.png" alt="Mikokal Rogowski" class="el-maikel-mobile"></a></li>
+							<li><a href="index.php">
+									<img src="img/text/el-mikel.jpg" alt="Mikokal" class="el-maikel-mobile">
+									<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-mobile">
+								</a></li>
 							<li><button id="burger-menu-button-close">
 									<!-- <img src="img/text/open-menu.png" alt="Button to open mobile menu" class="burger-menu-open"> -->
 									<img src="img/text/close-menu.png" alt="Button to close mobile menu" class="burger-menu-close">
@@ -77,24 +85,30 @@ define('SITE_VERSION', '1.0.0');
 							<li>
 								<details open>
 									<summary>
-										<img src="img/text/portfolio.png" alt="Portfolio" class="portfolio-mobile">
+										<img src="img/text/portfolio.jpg" alt="Portfolio" class="portfolio-mobile">
 									</summary>
 									<ul>
-										<li><a href="travels-in-reality.php"><img src="img/text/travels.png" alt="Travels in reality"></a></li>
-										<li><a href="americana-light.php"><img src="img/text/americana.png" alt="Americana Light"></a></li>
-										<li><a href="wapien.php"><img src="img/text/wapien.png" alt="Wapieñ"></a></li>
-										<li><a href="film.php"><img src="img/text/film.png" alt="Film"></a></li>
+										<li><a href="travels-in-reality.php">
+												<img src="img/text/travels.jpg" alt="Travels in">
+												<img src="img/text/reality.jpg" alt="reality">
+											</a></li>
+										<li><a href="americana-light.php">
+												<img src="img/text/americana.jpg" alt="Americana">
+												<img src="img/text/light.jpg" alt="Light">
+											</a></li>
+										<li><a href="wapien.php"><img src="img/text/wapien.jpg" alt="Wapieñ"></a></li>
+										<li><a href="film.php"><img src="img/text/film.jpg" alt="Film"></a></li>
 										<li><a href="grandpa.php"><img src="img/text/grandpa.png" alt="Grandpa"></a></li>
-										<li><a href="colabs.php"><img src="img/text/colabs.png" alt="Colabs"></a></li>
+										<li><a href="colabs.php"><img src="img/text/colabs.jpg" alt="Colabs"></a></li>
 									</ul>
 								</details>
 							</li>
-							<li><a href="about.php"><img src="img/text/about.png" alt="About" class="about-mobile"></a></li>
+							<li><a href="about.php"><img src="img/text/about.jpg" alt="About" class="about-mobile"></a></li>
 						</ul>
 					</li>
 					<li>
 						<ul>
-							<li><a href="mailto:natimciraolo@gmail.com"><img src="img/text/contact.png" alt="Contact" class="contact"></a></li>
+							<li><a href="mailto:natimciraolo@gmail.com"><img src="img/text/contact.jpg" alt="Contact" class="contact"></a></li>
 							<li><a href="https://www.instagram.com/" target="_blank"><img src="img/text/insta.png" alt="Insta" class="insta"></a></li>
 						</ul>
 					</li>
@@ -105,24 +119,33 @@ define('SITE_VERSION', '1.0.0');
 		<div class="desktop-menu">
 			<nav>
 				<ul>
-					<li><a href="index.php"><img src="img/text/el-mikel.png" alt="Mikokal Rogowski" class="el-maikel-desktop"></a></li>
+					<li><a href="index.php">
+							<img src="img/text/el-mikel.jpg" alt="Mikokal Rogowski" class="el-maikel-desktop">
+							<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-mobile">
+						</a></li>
 					<li>
 						<details>
 							<summary>
-								<img src="img/text/portfolio.png" alt="Portfolio" class="portfolio-desktop">
+								<img src="img/text/portfolio.jpg" alt="Portfolio" class="portfolio-desktop">
 							</summary>
 							<ul>
-								<li><a href="travels-in-reality.php"><img src="img/text/travels.png" alt="Travels in reality"></a></li>
-								<li><a href="americana-light.php"><img src="img/text/americana.png" alt="Americana Light"></a></li>
-								<li><a href="wapien.php"><img src="img/text/wapien.png" alt="Wapieñ"></a></li>
-								<li><a href="film.php"><img src="img/text/film.png" alt="Film"></a></li>
+								<li><a href="travels-in-reality.php">
+										<img src="img/text/travels.jpg" alt="Travels in reality">
+										<img src="img/text/reality.jpg" alt="reality">
+									</a></li>
+								<li><a href="americana-light.php">
+										<img src="img/text/americana.jpg" alt="Americana">
+										<img src="img/text/light.jpg" alt="Light">
+									</a></li>
+								<li><a href="wapien.php"><img src="img/text/wapien.jpg" alt="Wapieñ"></a></li>
+								<li><a href="film.php"><img src="img/text/film.jpg" alt="Film"></a></li>
 								<li><a href="grandpa.php"><img src="img/text/grandpa.png" alt="Grandpa"></a></li>
-								<li><a href="colabs.php"><img src="img/text/colabs.png" alt="Colabs"></a></li>
+								<li><a href="colabs.php"><img src="img/text/colabs.jpg" alt="Colabs"></a></li>
 							</ul>
 
 						</details>
 					</li>
-					<li><a href="about.php"><img src="img/text/about.png" alt="About" class="about-desktop"></a></li>
+					<li><a href="about.php"><img src="img/text/about.jpg" alt="About" class="about-desktop"></a></li>
 				</ul>
 			</nav>
 		</div>
