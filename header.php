@@ -50,7 +50,7 @@ define('SITE_VERSION', '1.0.0');
 		<div class="menu-mobile">
 			<ul class="burguer-nav-ul">
 				<li>
-					<a href="index.php">
+					<a href="index.php" class="mobile-mikel-rogowski-link">
 						<img src="img/text/el-mikel.jpg" alt="Mikokal Rogowski" class="el-maikel-mobile">
 						<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-mobile">
 					</a>
@@ -69,7 +69,7 @@ define('SITE_VERSION', '1.0.0');
 				<ul>
 					<li>
 						<ul class="burguer-nav-ul">
-							<li><a href="index.php">
+							<li><a href="index.php" class="mobile-mikel-rogowski-link">
 									<img src="img/text/el-mikel.jpg" alt="Mikokal" class="el-maikel-mobile">
 									<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-mobile">
 								</a></li>
@@ -121,7 +121,7 @@ define('SITE_VERSION', '1.0.0');
 				<ul>
 					<li><a href="index.php">
 							<img src="img/text/el-mikel.jpg" alt="Mikokal Rogowski" class="el-maikel-desktop">
-							<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-mobile">
+							<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-desktop">
 						</a></li>
 					<li>
 						<details>

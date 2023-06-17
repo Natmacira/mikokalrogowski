@@ -2,8 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .el-maikel-mobile {
-        max-width: 238.4px;
+    .mobile-mikel-rogowski-link {
+        color: transparent;
+        text-decoration: none;
+        .el-maikel-mobile {
+            max-width: 123px;
+        }
+        .rogowski-mobile {
+            max-width: 137px;
+            margin-left: -10px;
+        }
     }
 
     button {
@@ -21,4 +29,3 @@
         }
     }
 }
-

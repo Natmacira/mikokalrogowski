@@ -55,13 +55,20 @@ body {
 			}
 		}
 	}
+	header {
+		div.burguer {
+			transform: translateY(-100%); /* Mueve el elemento fuera de la pantalla */
+			transition: transform 0.5s; 		}
+	}
 	&.hamburger-menu-active {
 		// @media (max-width: $breakpoint-tablet - 1px) {
 		overflow: hidden;
 		header {
 			div.burguer {
-				transition: 1s;
-				left: 0;
+				transform: translateY(0); /* Muestra el elemento en la posición original */
+
+				// transition: 1s;
+				// left: 0;
 			}
 		}
 		// }
@@ -73,9 +80,14 @@ body {
 			@media (min-width: 1200px) {
 				display: block;
 			}
-			.el-maikel-desktop {
-				max-width: 447px;
-			}
+
+			// .el-maikel-desktop {
+			// 	max-width: 206.8px;
+			// }
+			// .rogowski-desktop {
+			// 	max-width: 238.4px;
+
+			// }
 			.portfolio-desktop {
 				max-width: 270px;
 			}
