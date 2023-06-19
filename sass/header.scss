@@ -37,19 +37,65 @@ body {
 					background: white;
 					z-index: 5;
 					width: 100%;
-					details {
-						ul {
-							display: flex;
-							flex-direction: column;
-							align-items: center;
-							justify-content: center;
-							img {
-								width: 94px;
+					li {
+						details {
+							ul {
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+								justify-content: center;
+								li {
+									a {
+										text-align: center;
+										display: flex;
+										flex-direction: column;
+										align-items: center;
+										justify-content: flex-start;
+										height: 40px;
+										img {
+											width: 94px;
+											&.travels-in {
+												width: 104px;
+											}
+											&.reality {
+												width: 79px;
+											}
+											&.americana {
+												width: 103px;
+											}
+											&.light {
+												width: 55px;
+											}
+											&.wapien {
+												width: 90px;
+											}
+											&.film {
+												width: 60px;
+											}
+											&.grandpa {
+												width: 90px;
+											}
+											&.colabs {
+												width: 90px;
+											}
+										}
+									}
+									margin-bottom: 16px;
+								}
+							}
+							summary::marker {
+								font-size: 0;
 							}
 						}
-						summary::marker {
-							font-size: 0;
-						}
+					}
+				}
+				img {
+					margin-bottom: 0;
+					&.contact {
+						width: 136.53px;
+					}
+					&.insta {
+						width: 90.67px;
 					}
 				}
 			}
@@ -57,21 +103,20 @@ body {
 	}
 	header {
 		div.burguer {
-			transform: translateY(-100%); /* Mueve el elemento fuera de la pantalla */
-			transition: transform 0.5s; 		}
+			// transform: translateY(-100%); /* Mueve el elemento fuera de la pantalla */
+			// transition: transform 0.5s;
+		}
 	}
 	&.hamburger-menu-active {
-		// @media (max-width: $breakpoint-tablet - 1px) {
 		overflow: hidden;
 		header {
 			div.burguer {
-				transform: translateY(0); /* Muestra el elemento en la posición original */
+				// transform: translateY(0); /* Muestra el elemento en la posición original */
 
-				// transition: 1s;
-				// left: 0;
+				transition: 1s;
+				left: 0;
 			}
 		}
-		// }
 	}
 
 	header {
