@@ -91,11 +91,13 @@ define('SITE_VERSION', '1.0.0');
 										<li><a href="travels-in-reality.php">
 												<img src="img/text/travels.jpg" alt="Travels in" class="travels-in">
 												<img src="img/text/reality.jpg" alt="reality" class="reality">
-											</a></li>
+											</a>
+										</li>
 										<li><a href="americana-light.php">
 												<img src="img/text/americana.jpg" alt="Americana" class="americana">
 												<img src="img/text/light.jpg" alt="Light" class="light">
-											</a></li>
+											</a>
+										</li>
 										<li><a href="wapien.php"><img src="img/text/wapien.jpg" alt="Wapieñ" class="wapien"></a></li>
 										<li><a href="film.php"><img src="img/text/film.jpg" alt="Film" class="film"></a></li>
 										<li><a href="grandpa.php"><img src="img/text/grandpa.png" alt="Grandpa" class="grandpa"></a></li>

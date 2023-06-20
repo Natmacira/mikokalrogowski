@@ -4,7 +4,9 @@
 $body_class = "";
 require_once 'header.php';
 ?>
-
+<section class="title-section">
+    <img src="img/text/colabs.jpg" alt="Colabs" class="colabs">
+</section>
 <section>
     <img src="img/Collabs/1.Andy_Force Aquariane.jpg" alt="">
     <img src="img/Collabs/2. Andy_Force Aquariane_2.jpg" alt="">

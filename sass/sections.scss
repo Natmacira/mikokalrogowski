@@ -53,12 +53,42 @@ section {
 
 	&.home {
 		img {
-			margin-top: 120px;
-			margin-bottom: 120px;
+			margin-top: 160px;
+			margin-bottom: 150px;
 			@media (min-width: 800px) {
 				max-width: 600px;
 				margin-top: 52px;
 				margin-bottom: 71px;
+			}
+		}
+	}
+
+	&.title-section {
+		img {
+			margin-bottom: 24px;
+			&.travels-in {
+				width: 156px;
+			}
+			&.reality {
+				width: 118px;
+			}
+			&.americana {
+				width: 154px;
+			}
+			&.light {
+				width: 83px;
+			}
+			&.wapien {
+				width: 127px;
+			}
+			&.film {
+				width: 76px;
+			}
+			&.grandpa {
+				width: 108px;
+			}
+			&.colabs {
+				width: 152px;
 			}
 		}
 	}

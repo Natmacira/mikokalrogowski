@@ -60,30 +60,7 @@ body {
 										height: 40px;
 										img {
 											width: 94px;
-											&.travels-in {
-												width: 104px;
-											}
-											&.reality {
-												width: 79px;
-											}
-											&.americana {
-												width: 103px;
-											}
-											&.light {
-												width: 55px;
-											}
-											&.wapien {
-												width: 90px;
-											}
-											&.film {
-												width: 60px;
-											}
-											&.grandpa {
-												width: 90px;
-											}
-											&.colabs {
-												width: 90px;
-											}
+											@include mobile-images();
 										}
 									}
 									margin-bottom: 16px;
@@ -116,7 +93,6 @@ body {
 					justify-content: space-between;
 					padding: 14px 12px;
 				}
-
 			}
 		}
 	}

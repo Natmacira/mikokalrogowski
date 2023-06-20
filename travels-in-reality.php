@@ -4,7 +4,10 @@
 $body_class = "";
 require_once 'header.php';
 ?>
-
+<section class="title-section">
+        <img src="img/text/travels.jpg" alt="Travels in" class="travels-in">
+        <img src="img/text/reality.jpg" alt="reality" class="reality">
+</section>
 <section class="travels-in-reality">
     <img src="img/Travels_in_reality/1_travels.jpg" alt="">
     <img src="img/Travels_in_reality/2_travels.jpg" alt="">
@@ -20,7 +23,8 @@ require_once 'header.php';
         <br><br><br>
         2015-2018
         <br><br><br>
-        All rights reserved. No part of works contained here can be used without prior permission. </p>
+        All rights reserved. No part of works contained here can be used without prior permission.
+    </p>
 </section>
 
 <!-- </body> -->
