@@ -120,11 +120,12 @@ define('SITE_VERSION', '1.0.0');
 		<!-- menu in desktop -->
 		<div class="desktop-menu">
 			<nav>
-				<ul>
+				<ul class="ul-container">
 					<li><a href="index.php">
 							<img src="img/text/el-mikel.jpg" alt="Mikokal Rogowski" class="el-maikel-desktop">
 							<img src="img/text/rogowski.jpg" alt="Rogowski" class="rogowski-desktop">
-						</a></li>
+						</a>
+					</li>
 					<li>
 						<details>
 							<summary>
@@ -132,17 +133,17 @@ define('SITE_VERSION', '1.0.0');
 							</summary>
 							<ul>
 								<li><a href="travels-in-reality.php">
-										<img src="img/text/travels.jpg" alt="Travels in reality">
-										<img src="img/text/reality.jpg" alt="reality">
+										<img src="img/text/travels.jpg" alt="Travels in reality" class="travels-in">
+										<img src="img/text/reality.jpg" alt="reality" class="reality">
 									</a></li>
 								<li><a href="americana-light.php">
-										<img src="img/text/americana.jpg" alt="Americana">
-										<img src="img/text/light.jpg" alt="Light">
+										<img src="img/text/americana.jpg" alt="Americana" class="americana">
+										<img src="img/text/light.jpg" alt="Light" class="light">
 									</a></li>
-								<li><a href="wapien.php"><img src="img/text/wapien.jpg" alt="Wapieñ"></a></li>
-								<li><a href="film.php"><img src="img/text/film.jpg" alt="Film"></a></li>
-								<li><a href="grandpa.php"><img src="img/text/grandpa.png" alt="Grandpa"></a></li>
-								<li><a href="colabs.php"><img src="img/text/colabs.jpg" alt="Colabs"></a></li>
+									<li><a href="wapien.php"><img src="img/text/wapien.jpg" alt="Wapieñ" class="wapien"></a></li>
+										<li><a href="film.php"><img src="img/text/film.jpg" alt="Film" class="film"></a></li>
+										<li><a href="grandpa.php"><img src="img/text/grandpa.png" alt="Grandpa" class="grandpa"></a></li>
+										<li><a href="colabs.php"><img src="img/text/colabs.jpg" alt="Colabs" class="colabs"></a></li>
 							</ul>
 
 						</details>

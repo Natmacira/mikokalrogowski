@@ -64,16 +64,21 @@ section {
 	}
 
 	&.title-section {
+		@media (min-width: 1200px) {
+			display: none;
+		}
 		img {
 			margin-bottom: 24px;
 			&.travels-in {
 				width: 156px;
+				margin-bottom: 0;
 			}
 			&.reality {
 				width: 118px;
 			}
 			&.americana {
 				width: 154px;
+				margin-bottom: 0;
 			}
 			&.light {
 				width: 83px;
@@ -89,6 +94,10 @@ section {
 			}
 			&.colabs {
 				width: 152px;
+			}
+			&.about {
+				width: 115px;
+				margin-bottom: 26px;
 			}
 		}
 	}
