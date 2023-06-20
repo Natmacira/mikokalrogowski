@@ -1,6 +1,6 @@
 body {
 	//burger menu estilos
-
+	// overflow: hidden;
 	header {
 		summary::marker {
 			font-size: 0;
@@ -19,15 +19,13 @@ body {
 			}
 			transition: 1s;
 			left: 100vw;
-			position: absolute;
+			position: fixed;
+			background: white;
+			height: 100%;
+			top: 0;
+			z-index: 9;
+			width: 100%;
 			nav {
-				padding: 24px 16px 12px;
-				.portfolio-mobile {
-					max-width: 180px;
-				}
-				.about-mobile {
-					max-width: 115px;
-				}
 				.burguer-nav-ul {
 					@include menu-top-mobile();
 				}
@@ -37,13 +35,21 @@ body {
 					background: white;
 					z-index: 5;
 					width: 100%;
+					text-align: center;
+
 					li {
 						details {
+							margin-bottom: 24px;
+							summary img {
+								width: 194px;
+								margin-bottom: 24px;
+							}
 							ul {
 								display: flex;
 								flex-direction: column;
 								align-items: center;
 								justify-content: center;
+								text-align: center;
 								li {
 									a {
 										text-align: center;
@@ -88,6 +94,12 @@ body {
 							}
 						}
 					}
+					li:nth-child(2) {
+						margin-bottom: 18px;
+						a img {
+							width: 135px;
+						}
+					}
 				}
 				img {
 					margin-bottom: 0;
@@ -98,21 +110,20 @@ body {
 						width: 90.67px;
 					}
 				}
+				ul li:nth-child(3) ul {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					padding: 14px 12px;
+				}
+
 			}
 		}
 	}
-	header {
-		div.burguer {
-			// transform: translateY(-100%); /* Mueve el elemento fuera de la pantalla */
-			// transition: transform 0.5s;
-		}
-	}
+	// transition del burguer menu
 	&.hamburger-menu-active {
-		overflow: hidden;
 		header {
 			div.burguer {
-				// transform: translateY(0); /* Muestra el elemento en la posición original */
-
 				transition: 1s;
 				left: 0;
 			}
@@ -142,13 +153,13 @@ body {
 		}
 	}
 
-	&.page-scrolled:not(.hamburger-menu-active) {
-		header {
-			margin: 0;
+	// &.page-scrolled:not(.hamburger-menu-active) {
+	// 	header {
+	// 		margin: 0;
 
-			#burger-menu-button {
-				padding: 6px 0 0;
-			}
-		}
-	}
+	// 		#burger-menu-button {
+	// 			padding: 6px 0 0;
+	// 		}
+	// 	}
+	// }
 }

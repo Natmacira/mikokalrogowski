@@ -85,7 +85,7 @@ define('SITE_VERSION', '1.0.0');
 							<li>
 								<details open>
 									<summary>
-										<img src="img/text/portfolio.jpg" alt="Portfolio" class="portfolio-mobile">
+										<img src="img/text/portfolio.jpg" alt="Portfolio">
 									</summary>
 									<ul>
 										<li><a href="travels-in-reality.php">
@@ -103,13 +103,13 @@ define('SITE_VERSION', '1.0.0');
 									</ul>
 								</details>
 							</li>
-							<li><a href="about.php"><img src="img/text/about.jpg" alt="About" class="about-mobile"></a></li>
+							<li><a href="about.php"><img src="img/text/about.jpg" alt="About"></a></li>
 						</ul>
 					</li>
 					<li>
 						<ul>
-							<li><a href="mailto:natimciraolo@gmail.com"><img src="img/text/contact.jpg" alt="Contact" class="contact"></a></li>
-							<li><a href="https://www.instagram.com/" target="_blank"><img src="img/text/insta.png" alt="Insta" class="insta"></a></li>
+							<li><a href="mailto:rogal@ka.onet.pl"><img src="img/text/contact.jpg" alt="Contact" class="contact"></a></li>
+							<li><a href="https://www.instagram.com/mikolaj.rogowski/?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><img src="img/text/insta.png" alt="Insta" class="insta"></a></li>
 						</ul>
 					</li>
 				</ul>
