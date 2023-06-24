@@ -6,7 +6,7 @@ require_once 'header.php';
 ?>
 
 <section class="home">
-<img src="img/Granddad/1_granddad.JPG" alt="">
+<a href="" id="random-image-link"><img src="" alt="Photography by Mikokal Rogowski" id="random-image"></a>
 </section>
 
 <!-- </body> -->

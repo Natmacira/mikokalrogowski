@@ -1,13 +1,17 @@
 <?php
 
 /**
- * Site Version: 1.0.0
+ * Site Version: 1.0.2
  * Site author: Natalia Ciraolo
  * Author website: https://github.com/Natmacira
  * Author e-mail: natimciraolo@gmail.com
  */
 
 define('SITE_VERSION', '1.0.0');
+
+?>
+<?php
+    $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +22,9 @@ define('SITE_VERSION', '1.0.0');
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mikokal Rogowski</title>
 	<link rel="stylesheet" href="style.min.css?v=<?php echo SITE_VERSION; ?>">
+	<script>
+        var base_url = "<?php echo $base_url; ?>";
+    </script>
 	<script src="js/script.js?v=<?php echo SITE_VERSION; ?>"></script>
 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
